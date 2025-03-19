@@ -1,15 +1,19 @@
-.admin-container {
+  .dashboard-content {
+    padding: 20px;
+  }
+  
+  .admin-container {
     display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    margin-top: 60px; /* Prevents content from hiding under the header */
   }
   
   .admin-content {
-    margin-left: 250px;
-    width: 100%;
-    padding-top: 80px;
-    padding-left: 20px;
-  }
-  
-  .dashboard-content {
+    margin-left: 250px; /* Matches sidebar width */
     padding: 20px;
+    flex-grow: 1;
+    background-color: #f4f4f4; /* Light background */
+    min-height: calc(100vh - 60px);
   }
   

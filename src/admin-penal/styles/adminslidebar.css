@@ -1,13 +1,14 @@
 .admin-sidebar {
-    width: 250px;
-    height: 100vh;
-    background: #333;
-    color: white;
-    padding: 20px;
-    position: fixed;
-    left: 0;
-    top: 0;
-  }
+  position: fixed;
+  left: 0;
+  top: 60px; /* Push sidebar below the header */
+  width: 250px; /* Adjust based on your design */
+  height: calc(100vh - 60px); /* Full height minus header */
+  background-color: #222; /* Sidebar color */
+  color: white;
+  padding-top: 20px;
+  overflow-y: auto;
+}
   
   .admin-sidebar h2 {
     text-align: center;

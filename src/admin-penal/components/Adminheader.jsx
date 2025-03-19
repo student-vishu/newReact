@@ -3,8 +3,11 @@ import "../styles/adminheader.css";
 const AdminHeader = () => {
   return (
     <header className="admin-header">
-      <h1>Admin Dashboard</h1>
-    </header>
+    <h2>Admin Panel</h2>
+    <nav>
+      <Link to="/profile">Profile</Link> | <Link to="/logout">Logout</Link>
+    </nav>
+  </header>
   );
 };
 
