@@ -7,7 +7,7 @@ const Profile = () => {
       <h1>My Profile</h1>
       <div className="profile-card">
         <img
-          src="https://via.placeholder.com/150"
+          src="../../../public/images/2.jpg"
           alt="User Profile"
           className="profile-image"
         />
