@@ -1,18 +1,16 @@
-import { Link } from "react-router-dom";
-import "../styles/adminslidebar.css";
+import React from "react";
+import { Link } from "react-router-dom"; // ✅ Ensure correct import
+import "../styles/adminheader.css";
 
-const AdminSidebar = () => {
+const AdminHeader = () => {
   return (
-    <div className="admin-sidebar">
+    <header className="admin-header">
       <h2>Admin Panel</h2>
-      <ul>
-        <li><Link to="/admin/dashboard">Dashboard</Link></li>
-        <li><Link to="/admin/books">Manage Books</Link></li>
-        <li><Link to="/admin/users">Manage Users</Link></li>
-        <li><Link to="/admin/orders">Manage Orders</Link></li>
-      </ul>
-    </div>
+      <nav>
+        <Link to="/profile">Profile</Link> | <Link to="/logout">Logout</Link>
+      </nav>
+    </header>
   );
 };
 
-export default AdminSidebar;
+export default AdminHeader;
