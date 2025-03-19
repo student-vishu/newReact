@@ -1,10 +1,23 @@
 import React from "react";
+import "../styles/profile.css";
 
 const Profile = () => {
   return (
-    <div>
-      <h1>Profile Page</h1>
-      <p>Welcome to your profile!</p>
+    <div className="profile-container">
+      <h1>My Profile</h1>
+      <div className="profile-card">
+        <img
+          src="https://via.placeholder.com/150"
+          alt="User Profile"
+          className="profile-image"
+        />
+        <div className="profile-info">
+          <h2>John Doe</h2>
+          <p>Email: johndoe@example.com</p>
+          <p>Role: Admin</p>
+          <button className="edit-profile-btn">Edit Profile</button>
+        </div>
+      </div>
     </div>
   );
 };
