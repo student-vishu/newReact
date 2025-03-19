@@ -1,13 +1,12 @@
-.admin-container {
-  display: flex;
-}
-
 .admin-slider {
   width: 250px;
   background: #333;
   color: white;
   padding: 20px;
   height: 100vh;
+  margin-top: 20px; /* Ensure it starts below the header */
+  position: relative;
+  z-index: 1;
 }
 
 .admin-slider ul {
@@ -19,7 +18,7 @@
   margin: 20px 0;
 }
 
-.admin-slider ul li a {
+.admin-slider ul li a{
   color: white;
   text-decoration: none;
 }

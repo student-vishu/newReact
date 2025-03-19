@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/adminslidebar.css";
 
 const AdminSlider = () => {
   return (
     <aside className="admin-slider">
       <ul>
-        <li><a href="/dashboard">Dashboard</a></li>
-        <li><a href="/profile">Profile</a></li>
-        <li><a href="/logout">Logout</a></li>
+        <li> <Link to="/dashboard">Dashboard</Link> </li>
+        <li> <Link to="/profile">Profile</Link>  </li>
+        <li> <Link to="/logout">Logout</Link> </li>
       </ul>
     </aside>
   );
