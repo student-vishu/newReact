@@ -1,16 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom"; // ✅ Ensure correct import
-import "../styles/adminheader.css";
+import "../styles/adminslidebar.css";
 
-const AdminHeader = () => {
+const AdminSlider = () => {
   return (
-    <header className="admin-header">
-      <h2>Admin Panel</h2>
-      <nav>
-        <Link to="/profile">Profile</Link> | <Link to="/logout">Logout</Link>
-      </nav>
-    </header>
+    <aside className="admin-slider">
+      <ul>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    </aside>
   );
 };
 
-export default AdminHeader;
+export default AdminSlider;

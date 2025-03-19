@@ -1,37 +1,25 @@
-.admin-sidebar {
-  position: fixed;
-  left: 0;
-  top: 60px; /* Push sidebar below the header */
-  width: 250px; /* Adjust based on your design */
-  height: calc(100vh - 60px); /* Full height minus header */
-  background-color: #222; /* Sidebar color */
-  color: white;
-  padding-top: 20px;
-  overflow-y: auto;
+.admin-container {
+  display: flex;
 }
-  
-  .admin-sidebar h2 {
-    text-align: center;
-  }
-  
-  .admin-sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .admin-sidebar ul li {
-    margin: 15px 0;
-  }
-  
-  .admin-sidebar ul li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    transition: 0.3s;
-  }
-  
-  .admin-sidebar ul li a:hover {
-    background: #555;
-  }
-  
+
+.admin-slider {
+  width: 250px;
+  background: #333;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.admin-slider ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-slider ul li {
+  margin: 20px 0;
+}
+
+.admin-slider ul li a {
+  color: white;
+  text-decoration: none;
+}
