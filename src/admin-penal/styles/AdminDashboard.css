@@ -1,19 +1,54 @@
-  .dashboard-content {
-    padding: 20px;
-  }
-  
-  .admin-container {
-    display: flex;
-    flex-direction: row;
-    min-height: 100vh;
-    margin-top: 60px; /* Prevents content from hiding under the header */
-  }
-  
-  .admin-content {
-    margin-left: 250px; /* Matches sidebar width */
-    padding: 20px;
-    flex-grow: 1;
-    background-color: #f4f4f4; /* Light background */
-    min-height: calc(100vh - 60px);
-  }
-  
+/* Admin Dashboard Container */
+.admin-dashboard {
+  padding: 20px;
+  margin-top: 60px; /* Adjust based on header height */
+  text-align: center;
+}
+
+/* Dashboard Cards Section */
+.dashboard-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card {
+  background: #333;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Dashboard Stats */
+.dashboard-stats {
+  margin-top: 30px;
+  text-align: left;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+
+.dashboard-stats h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.dashboard-stats ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-stats ul li {
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
