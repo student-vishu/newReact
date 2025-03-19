@@ -1,5 +1,4 @@
-import "../styles/AdminHeader.css";
-
+import "../styles/";
 
 const AdminHeader = () => {
   return (
