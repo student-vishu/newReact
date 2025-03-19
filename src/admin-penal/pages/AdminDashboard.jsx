@@ -1,6 +1,6 @@
 import AdminHeader from "../components/Adminheader";
 import AdminSidebar from "../components/Adminslidbar";
-import "../styles/admindashbord.css";
+import "../styles/admindashboard.css";
 
 const AdminDashboard = () => {
   return (
