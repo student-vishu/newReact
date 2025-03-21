@@ -14,6 +14,7 @@ const ManageOrders = () => {
             <th>Book Title</th>
             <th>Price</th>
             <th>Status</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -28,6 +29,10 @@ const ManageOrders = () => {
                 <option>Completed</option>
                 <option>Cancelled</option>
               </select>
+            </td>
+            <td>
+              <button className="edit-btn">Edit</button>
+              <button className="delete-btn">Delete</button>
             </td>
           </tr>
         </tbody>

@@ -17,7 +17,7 @@ const App = () => {
         <AdminSlider />
         <div className="admin-content">
           <Routes>
-            <Route path="/dashboard" element={<AdminDashboard />} />
+            <Route path="/" element={<AdminDashboard />} />
             <Route path="/manageuser" element={<ManageUsers />} />
             <Route path="/managebook" element={<ManageBooks />} />
             <Route path="/manageorder" element={<ManageOrders />} />
