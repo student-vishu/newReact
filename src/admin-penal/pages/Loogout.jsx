@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/logout.css"
 
-const Logout = () => {
+const Loogout = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -20,4 +20,4 @@ const Logout = () => {
   );
 };
 
-export default Logout;
+export default Loogout;

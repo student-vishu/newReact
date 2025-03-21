@@ -11,7 +11,7 @@ const AdminSlider = () => {
         <li> <Link to="/managebook">ManageBooks</Link> </li>
         <li> <Link to="/manageorder">ManageOrder</Link> </li>
         <li> <Link to="/profile">Profile</Link>  </li>
-        <li> <Link to="/logout">Logout</Link> </li>
+        <li> <Link to="/loogout">Logout</Link> </li>
       </ul>
     </aside>
   );
